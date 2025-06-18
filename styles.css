@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'beachday';
+    src: url(beachday.otf);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #8c1ab85b;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(149, 21, 123);
+    padding-top: 1px;
+}
+
+.headertext{
+    font-family: beachday;
+    text-align: center;
+    font-size: 500%;
+    margin: 0;
+}
+
+.faketext{color: #b1d273}
+
+nav{
+    text-align: center
+}
+
+.botaomenu{
+    display: inline-block;
+    background-color: #701088;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+.botaomenu:hover{
+    background-color: #701088bf;
+    text-shadow: 2px 2px 10px #e1e1e1;
+}
