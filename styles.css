@@ -47,7 +47,8 @@ nav ul{
     text-shadow: 2px 2px 5px #2b2b2b;
 }
 
-.botaomenu:hover{
+.botaomenu:hover,
+.botaomenu.active{
     background-color: #707070bf;
     text-shadow: 2px 2px 10px #e1e1e1;
 }
@@ -67,13 +68,13 @@ nav ul{
 
 .conteudo {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 0px auto;
     background-color: #fcfcfc;
     padding: 40px;
-    border-radius: 10px;
     box-shadow: 0 0 15px #00000033;
     position: relative;
     z-index: 1;
+    min-height: 100vh;
 }
 
 .primeiro{
