@@ -15,6 +15,14 @@ header{
     padding-top: 1px;
 }
 
+header img{
+    position: fixed;
+
+    top: 5%;
+    left: 70px;
+    width: 100px;
+}
+
 .headertext{
     font-family: beachday;
     text-align: center;
@@ -70,23 +78,25 @@ nav ul{
     max-width: 800px;
     margin: 0px auto;
     background-color: #fcfcfc;
-    padding: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     box-shadow: 0 0 15px #00000033;
     position: relative;
     z-index: 1;
-    min-height: 100vh;
+    min-height:80vh;
+    box-sizing: border-box;
+    text-align: justify;
 }
 
-.primeiro{
-    background-color: white;
-    text-align: center;
-    padding-left: 15px;
-    position: relative;
-    top: 150px;
-    margin-left: 40%;
-    margin-right: 5%;
-    border-left: 5px solid #8e1111;
-    border-top-left-radius: 10px;
+.conteudo .textoinicial span{
+    color: #ac0e0e
+}
 
-
+iframe {
+  display: block;
+  margin: 30px auto; 
+  width: 600px;
+  height: 338px;
+  box-shadow: 0 0 5px #000000;
 }
