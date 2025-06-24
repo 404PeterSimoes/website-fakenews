@@ -87,7 +87,7 @@ nav ul{
     max-width: 800px;
     margin: 0px auto;
     background-color: #fcfcfc;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 40px;
     padding-right: 50px;
     padding-bottom: 7px;
@@ -99,7 +99,7 @@ nav ul{
     text-align: justify;
 }
 
-.conteudo p {
+.conteudo article {
     border-left: 4px solid #8e1111;
     padding-left: 10px;
 }
@@ -135,4 +135,25 @@ nav ul{
 
 .conteudo .imagem_fact_fake:hover {
     transform: scale(1.1);
+}
+
+.conteudo .seccao2 {
+    margin-top: 70px;
+}
+
+.conteudo .imagensexemplos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px
+}
+
+.conteudo .autocarro {
+    width: 300px;
+    box-shadow: 3px 3px 20px #000000;
+    display: flex;
+    align-items: center;
 }
