@@ -7,7 +7,11 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
 
+p,
+article{
+    line-height: 1.6;
 }
 
 header{
@@ -99,12 +103,13 @@ nav ul{
     text-align: justify;
 }
 
-.conteudo article {
+.conteudo article,
+.textoinicial {
     border-left: 4px solid #8e1111;
     padding-left: 10px;
 }
 
-.conteudo .textoinicial span{
+.red{
     color: #ac0e0e;
 }
 
@@ -156,4 +161,70 @@ nav ul{
     box-shadow: 3px 3px 20px #000000;
     display: flex;
     align-items: center;
+}
+
+.conteudo .sicnoticias{
+    width: 300px;
+    box-shadow: 3px 3px 20px #000000;
+}
+
+.conteudo .espacamento{
+    height: 15px;
+}
+
+.maior{
+    font-size: large;
+}
+
+.esquerda{
+    text-align: left;
+}
+
+.esquerda.paragrafo{
+    width: 60%;
+    padding-left: 10px;
+}
+
+.direita{
+    text-align: right;
+}
+
+.direita.paragrafo{
+    width: 60%;
+    margin-left: auto;
+}
+
+.imagem1{
+    position: absolute;
+    width: 270px;
+    box-shadow: 3px 3px 20px #000000;
+    top: 200px;
+    left: 500px;
+}
+
+.imagem2{
+    position: absolute;
+    width: 270px;
+    box-shadow: 3px 3px 20px #000000;
+    top: 400px
+}
+
+.imagem3{
+    position: absolute;
+    width: 270px;
+    box-shadow: 3px 3px 20px #000000;
+    top: 637px;
+    left: 500px;
+}
+
+.imagem4{
+    position: absolute;
+    width: 225px;
+    box-shadow: 3px 3px 20px #000000;
+    top: 900px;
+    left: 50px;
+}
+
+.linkscomoevitar{
+    text-decoration: none;
 }
