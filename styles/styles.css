@@ -1,27 +1,27 @@
-body{
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 p,
-article{
+article {
     line-height: 1.6;
 }
 
-header{
+header {
     background-color: #8c8c8c;
     padding-top: 1px;
 }
 
-header img{
+header img {
     position: fixed;
     top: 5%;
     left: 70px;
     width: 100px;
 }
 
-.headertext{
+.headertext {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 500%;
@@ -29,7 +29,7 @@ header img{
     text-shadow: 2px 2px 5px #2b2b2b95;
 }
 
-.faketext{
+.faketext {
     color: #8e1111;
 }
 
@@ -43,18 +43,18 @@ footer {
     border-top: 5px solid #5f5f5f;
 }
 
-nav{
+nav {
     background-color: #5f5f5f;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     gap: 10px;
     display: flex;
     justify-content: center;
 }
 
-.botaomenu{
+.botaomenu {
     display: inline-block;
     color: white;
     padding: 7px 10px;
@@ -64,12 +64,12 @@ nav ul{
 }
 
 .botaomenu:hover,
-.botaomenu.active{
+.botaomenu.active {
     background-color: #707070bf;
     text-shadow: 2px 2px 10px #e1e1e1;
 }
 
-.fundo{
+.fundo {
     position: fixed;
     top: 0;
     left: 0;
@@ -104,17 +104,17 @@ nav ul{
     padding-left: 10px;
 }
 
-.red{
+.red {
     color: #ac0e0e;
 }
 
 .conteudo .videortp {
-  display: block;
-  margin: 30px auto; 
-  margin-bottom: 10px;
-  width: 600px;
-  height: 338px;
-  box-shadow: 0 0 7px #c30e0e;
+    display: block;
+    margin: 30px auto;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 338px;
+    box-shadow: 0 0 7px #c30e0e;
 }
 
 .conteudo .legendartp {
@@ -148,7 +148,7 @@ nav ul{
     width: fit-content;
     margin: 0 auto;
     padding-top: 30px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 .conteudo .autocarro {
@@ -158,38 +158,38 @@ nav ul{
     align-items: center;
 }
 
-.conteudo .sicnoticias{
+.conteudo .sicnoticias {
     width: 300px;
     box-shadow: 3px 3px 20px #000000;
 }
 
-.conteudo .espacamento{
+.conteudo .espacamento {
     height: 15px;
 }
 
-.maior{
+.maior {
     font-size: large;
 }
 
-.esquerda{
+.esquerda {
     text-align: left;
 }
 
-.esquerda.paragrafo{
+.esquerda.paragrafo {
     width: 60%;
     padding-left: 10px;
 }
 
-.direita{
+.direita {
     text-align: right;
 }
 
-.direita.paragrafo{
+.direita.paragrafo {
     width: 60%;
     margin-left: auto;
 }
 
-.imagem1{
+.imagem1 {
     position: absolute;
     width: 270px;
     box-shadow: 3px 3px 20px #000000;
@@ -197,14 +197,14 @@ nav ul{
     left: 500px;
 }
 
-.imagem2{
+.imagem2 {
     position: absolute;
     width: 270px;
     box-shadow: 3px 3px 20px #000000;
-    top: 425px
+    top: 425px;
 }
 
-.imagem3{
+.imagem3 {
     position: absolute;
     width: 270px;
     box-shadow: 3px 3px 20px #000000;
@@ -212,7 +212,7 @@ nav ul{
     left: 500px;
 }
 
-.imagem4{
+.imagem4 {
     position: absolute;
     width: 225px;
     box-shadow: 3px 3px 20px #000000;
@@ -220,16 +220,16 @@ nav ul{
     left: 50px;
 }
 
-.linkscomoevitar{
+.linkscomoevitar {
     text-decoration: none;
 }
 
-.titulocentro{
+.titulocentro {
     text-align: center;
 }
 
-.centralizar{
+.centralizar {
     text-align: center;
     width: 70%;
-    margin: 0 auto
+    margin: 0 auto;
 }
